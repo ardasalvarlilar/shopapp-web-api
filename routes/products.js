@@ -6,7 +6,6 @@ const auth = require('../middleware/auth')
 const isAdmin = require('../middleware/is-admin')
 
 router.get('/',async(req,res,next) => {
-  throw new Error('hata oldu knk')
   const products = await Product.find().populate('category','name').select('-is_active')
   res.send(products)
 })
