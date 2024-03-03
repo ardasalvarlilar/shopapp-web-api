@@ -1,0 +1,571 @@
+{
+  error: ReferenceError: express is not defined
+      at module.exports (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/startup/routes.js:8:11)
+      at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:6:28)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at module.exports (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/startup/routes.js:8:11)\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:6:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at module.exports (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/startup/routes.js:8:11)\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:6:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Sun Mar 03 2024 15:01:59 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 31321,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.10.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js'
+    ],
+    memoryUsage: {
+      rss: 100696064,
+      heapTotal: 61341696,
+      heapUsed: 39280312,
+      external: 38789765,
+      arrayBuffers: 36508111
+    }
+  },
+  os: {
+    loadavg: [ 2.05126953125, 2.33251953125, 2.16796875 ],
+    uptime: 162519
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/startup/routes.js',
+      function: 'module.exports',
+      line: 8,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '03-Mar-2024 15:01:59'
+}
+{
+  error: ReferenceError: production is not defined
+      at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: production is not defined\n' +
+    'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Sun Mar 03 2024 15:19:20 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 32187,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.10.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js'
+    ],
+    memoryUsage: {
+      rss: 102514688,
+      heapTotal: 61341696,
+      heapUsed: 39282304,
+      external: 38789508,
+      arrayBuffers: 36508251
+    }
+  },
+  os: {
+    loadavg: [ 2.92578125, 2.2158203125, 2.0166015625 ],
+    uptime: 163560
+  },
+  trace: [
+    {
+      column: 28,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '03-Mar-2024 15:19:20'
+}
+{
+  error: ReferenceError: production is not defined
+      at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: production is not defined\n' +
+    'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Sun Mar 03 2024 15:19:39 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 32195,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.10.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js'
+    ],
+    memoryUsage: {
+      rss: 105758720,
+      heapTotal: 64225280,
+      heapUsed: 28278424,
+      external: 38789508,
+      arrayBuffers: 36508251
+    }
+  },
+  os: {
+    loadavg: [ 2.52099609375, 2.16845703125, 2.0029296875 ],
+    uptime: 163579
+  },
+  trace: [
+    {
+      column: 28,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '03-Mar-2024 15:19:39'
+}
+{
+  error: ReferenceError: production is not defined
+      at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: production is not defined\n' +
+    'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Sun Mar 03 2024 15:19:41 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 32220,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.10.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js'
+    ],
+    memoryUsage: {
+      rss: 99811328,
+      heapTotal: 61865984,
+      heapUsed: 39322432,
+      external: 38789508,
+      arrayBuffers: 36508251
+    }
+  },
+  os: {
+    loadavg: [ 2.52099609375, 2.16845703125, 2.0029296875 ],
+    uptime: 163581
+  },
+  trace: [
+    {
+      column: 28,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '03-Mar-2024 15:19:41'
+}
+{
+  error: ReferenceError: production is not defined
+      at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:22)
+      at Module._compile (node:internal/modules/cjs/loader:1376:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+      at Module.load (node:internal/modules/cjs/loader:1207:32)
+      at Module._load (node:internal/modules/cjs/loader:1023:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+      at node:internal/main/run_main_module:28:49,
+  level: 'error',
+  message: 'uncaughtException: production is not defined\n' +
+    'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  stack: 'ReferenceError: production is not defined\n' +
+    '    at Object.<anonymous> (/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js:7:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1207:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1023:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n' +
+    '    at node:internal/main/run_main_module:28:49',
+  exception: true,
+  date: 'Sun Mar 03 2024 15:20:20 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 32227,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis',
+    execPath: '/usr/local/bin/node',
+    version: 'v20.10.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js'
+    ],
+    memoryUsage: {
+      rss: 105512960,
+      heapTotal: 64749568,
+      heapUsed: 28222840,
+      external: 38789508,
+      arrayBuffers: 36508251
+    }
+  },
+  os: {
+    loadavg: [ 2.75537109375, 2.25927734375, 2.04150390625 ],
+    uptime: 163620
+  },
+  trace: [
+    {
+      column: 22,
+      file: '/Users/ardasalvarlilar/Documents/Development/öğrenci/node/restapis/app.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1376,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1435,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1207,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1023,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 135,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 28,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '03-Mar-2024 15:20:20'
+}
