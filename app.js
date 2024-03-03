@@ -9,7 +9,7 @@ if(process.env.NODE_ENV == 'production'){
 }
 // cross origin settings as npm 
 app.use(cors({
-  origin: "*",
+  origin: ['*',"http://localhost:3000","https://shopappapi-c0ee19112675.herokuapp.com"],
   methods: 'GET'
 }))
 
